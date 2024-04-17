@@ -27,10 +27,6 @@ variable "rds_instance_class" {
   type = string
 }
 
-variable "rds_name" {
-  type = string
-}
-
 variable "rds_username" {
   type = string
 }
