@@ -41,7 +41,6 @@ resource "aws_db_instance" "example" {
   engine            = var.rds_engine
   engine_version    = var.rds_engine_version
   instance_class    = var.rds_instance_class
-  name              = var.rds_name
   username          = var.rds_username
   password          = var.rds_password
 }
